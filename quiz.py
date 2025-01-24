@@ -31,9 +31,42 @@ def save_questions_to_file(filepath, questions):
             json.dump(questions, file, indent=4)
     except Exception as e:
         print(f"Error saving file '{filepath}': {e}")
+    
+
+def add_more_questions(selected_dir):
+    q = input("\nEnter the new question: \n\n\t").strip()
+    a = input("\n\n\nEnter the answer to the question: \n\n\t").strip()
+    
+    confirm = input(f"\n\nAdd this to the {Fore.CYAN}{os.path.basename(selected_dir)}{Style.RESET_ALL} directory? [y/n]:  ").strip().lower()
+    
+    if confirm == "y":
+        # Determine the file to save the question
+        file_path = os.path.join(selected_dir, "questions.json")
+        
+        # Load existing questions or initialize a new list
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as file:
+                try:
+                    questions = json.load(file)
+                except json.JSONDecodeError:
+                    print("Error: Existing file is not valid JSON. Overwriting.")
+                    questions = []
+        else:
+            questions = []
+
+        # Add the new question
+        questions.append({"Question": q, "Answer": a})
+
+        # Save back to the file
+        with open(file_path, 'w') as file:
+            json.dump(questions, file, indent=4)
+        print(f"Question added!")
+    else:
+        print("Question not added.")
 
 def main():
     base_path = os.path.dirname(os.path.abspath(__file__))
+    base_path = os.path.join(base_path, "json")
 
     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
@@ -49,8 +82,9 @@ def main():
     for i, subdir in enumerate(subdirectories):
         print(f"{Fore.CYAN}{i + 1}. {subdir}{Style.RESET_ALL}")
 
+    # Which subject to test yourself on
     try:
-        choice = int(input("\nEnter which of the above directories to work on: ")) - 1
+        choice = int(input("\nEnter which of the above directories to work on:  ")) - 1
         if choice < 0 or choice >= len(subdirectories):
             print("Invalid choice. Exiting.")
             return
@@ -58,6 +92,19 @@ def main():
     except ValueError:
         print("Invalid input. Please enter a number. Exiting.")
         return
+
+    # Prompt for adding new questions
+    add_questions = True
+    while(add_questions):
+        try:
+            choice = input(f"\n\nAdd more questions to the {Fore.CYAN}{os.path.basename(selected_dir)}{Style.RESET_ALL} directory? If so, write \"add\", otherwise press Enter:  ").strip().lower()
+            if choice == "add":
+                add_more_questions(selected_dir)
+            else:
+                add_questions = False
+        except ValueError:
+            print("Invalid input. Exiting.")
+            exit
 
     # Load all questions from the chosen directory
     questions_by_file = load_questions_from_directory(selected_dir)

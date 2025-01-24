@@ -1,0 +1,30 @@
+[
+  {
+    "Question": "Explain how to use a Reliability Block Diagram",
+    "Answer": "The RBD is used to break apart a large system in to smallser subsystem and to analyze the subsystems individual realiabilities and thir interractions between each subsystem"
+  },
+  {
+    "Question": "Explain Fault Tree Analasys FTA",
+    "Answer": "A fault is analyzed top down to identify teh root causes(base events) of the fault occuring and teh interractions of the root events."
+  },
+  {
+    "Question": "What is Qualitative FTA?",
+    "Answer": "It is a techneque to analyze wich combination of base events(cut sets) need to be active at the same time to trigger the top level event. a minimal cut set is the shortest list of base events that needs to occur to triger the top level event"
+  },
+  {
+    "Question": "What is Qualitative FTA?",
+    "Answer": "Quantitative FTA is where you assign a probability of each base event and numericaly determine weaknesses in the system and where to focus attention to to improve weak links"
+  },
+  {
+    "Question": "calculate the minimal cut set of T = (A+BD)(A+C)(A+B)",
+    "Answer": " A+BCD"
+  },
+  {
+    "Question": "What are some limitations of FTA?",
+    "Answer": "*Tend to be very large for real systems where several events in the process\n*Difficult to find all combinations of base events\n* Used to analyse fixed probabilities i.e (during FTA we did not used the termfunction of t) only\n    - No variation in time (no repair)\n     -Each event in the tree has a fixed probability to occur"
+  },
+  {
+    "Question": "Explain how to conduct a FMEA",
+    "Answer": "1.For the system, list all failure modes in one column in a spread sheet\n2. for each failure mode list all the effects of that failure mode and assign a serverity rating form 1-10\n3. assign the causes for each failure mode and rat its probability of occuring\n4.for each cause, list the difficulty of remedy that cause form 1-10\n5. multiply teh severity risk and cost numbers to a Risk priority number =RPN"
+  }
+]
