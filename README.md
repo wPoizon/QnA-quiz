@@ -1,1 +1,3 @@
 # QnA-quiz
+
+Simple way of quizing yourself on questions. Good practice for exams etc. Add a question, add an answer to the question and play the quiz within that directory to let the program quiz you on the questions. Keep track of how you're doing by saying if you got a question right or wrong. Do the quiz many times to see your improvement when the number of questions you've gotten correct increases!
