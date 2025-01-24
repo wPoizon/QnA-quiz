@@ -1,0 +1,22 @@
+[
+    {
+        "Question": "What are the main system calls used in operating systems?",
+        "Answer": "System calls include process control, file management, device management, information maintenance, communication, and protection."
+    },
+    {
+        "Question": "What are the advantages of using an API over direct system calls?",
+        "Answer": "APIs enhance program portability as system calls are hardware-dependent. They allow developers to work independently of hardware architecture."
+    },
+    {
+        "Question": "What are the different methods for passing parameters to system calls?",
+        "Answer": "Parameters can be passed in CPU registers, stored in a memory block with its address passed in a register, or pushed and popped from the stack."
+    },
+    {
+        "Question": "What are some common system services provided for program development and execution?",
+        "Answer": "System services include file management, status information (e.g., system date, memory availability), file modification, programming language support, and background services."
+    },
+    {
+        "Question": "What is the purpose of linkers and loaders in an operating system?",
+        "Answer": "Linkers combine relocatable object files into a single binary executable, while loaders load executables into memory for execution."
+    }
+]

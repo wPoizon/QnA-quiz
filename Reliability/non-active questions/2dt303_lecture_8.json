@@ -1,0 +1,78 @@
+[
+    {
+        "Question": "What is fault tolerance, and why is it critical in embedded systems?",
+        "Answer": "Fault tolerance refers to the ability of a system to continue functioning correctly even in the presence of faults. In embedded systems, this is critical because they are often used in safety-critical applications where failures can lead to severe consequences, such as in automotive or medical devices."
+    },
+    {
+        "Question": "Differentiate between transient and permanent faults.",
+        "Answer": "Transient faults are temporary issues that may occur due to environmental factors or other temporary disturbances, whereas permanent faults are lasting errors that arise from hardware failures or irreversible issues within the system."
+    },
+    {
+        "Question": "Explain the four types of redundancy used in fault tolerance: hardware, information, time, and software.",
+        "Answer": "Hardware redundancy involves duplicating physical components to ensure reliability. Information redundancy uses extra data for error detection and correction. Time redundancy repeats computations to verify results, while software redundancy employs multiple algorithms to achieve the same task."
+    },
+    {
+        "Question": "How does hardware redundancy improve system reliability?",
+        "Answer": "Hardware redundancy improves system reliability by providing backup components that can take over in case of a failure, ensuring that the system remains operational even when one or more parts fail."
+    },
+    {
+        "Question": "What are error-detecting codes (EDC) and error-correcting codes (ECC)? Provide examples of each.",
+        "Answer": "Error-detecting codes (EDC) can identify errors in data, such as parity bits, while error-correcting codes (ECC) can correct errors to restore original data, such as Hamming code."
+    },
+    {
+        "Question": "Describe the process of encoding and decoding data with check bits. Why is this process important?",
+        "Answer": "Encoding involves transforming data into a codeword by adding check bits that help identify errors. Decoding retrieves the original data while checking for errors. This process is crucial for ensuring data integrity and reliability."
+    },
+    {
+        "Question": "What is the purpose of RAID (Redundant Array of Independent Disks)?",
+        "Answer": "The purpose of RAID is to combine multiple disk drives into a single unit to improve performance and provide redundancy, protecting data from drive failures."
+    },
+    {
+        "Question": "Compare and contrast RAID 0 and RAID 1 in terms of performance, redundancy, and capacity usage.",
+        "Answer": "RAID 0 offers high performance and utilizes all available storage capacity but provides no redundancy, leading to potential data loss if a drive fails. RAID 1 offers redundancy by mirroring data across two drives, ensuring data safety at the cost of doubling the required disk space."
+    },
+    {
+        "Question": "What are the advantages and disadvantages of RAID 5?",
+        "Answer": "RAID 5 provides good read performance, fault tolerance with distributed parity, and efficient storage usage. However, it has slower write performance due to parity calculations and can be vulnerable during rebuilds after a drive failure."
+    },
+    {
+        "Question": "How does RAID 6 improve upon the fault tolerance offered by RAID 5?",
+        "Answer": "RAID 6 enhances fault tolerance by allowing the system to withstand the failure of two disks simultaneously, thanks to its dual parity scheme, providing greater data protection compared to RAID 5."
+    },
+    {
+        "Question": "Explain the concept of time redundancy and its role in fault detection.",
+        "Answer": "Time redundancy involves repeating computations or processes at different times to detect faults by comparing results. It helps identify transient faults by checking if results differ when repeated."
+    },
+    {
+        "Question": "What methods can be employed to detect transient faults through time redundancy?",
+        "Answer": "Transient faults can be detected using methods such as result comparison after recomputation, where multiple executions of the same operation are compared to identify discrepancies."
+    },
+    {
+        "Question": "What is alternating logic, and how does it help in detecting faults in digital circuits?",
+        "Answer": "Alternating logic is a technique where data is transmitted in two complementary forms at different times. Comparing the two outputs helps identify faults if they do not match as expected."
+    },
+    {
+        "Question": "Describe how recomputing with shifted or swapped operands can aid in fault detection.",
+        "Answer": "Recomputing with shifted or swapped operands involves modifying input data before recomputation to detect faults. Discrepancies between original and recomputed results indicate potential faults."
+    },
+    {
+        "Question": "What challenges might arise when implementing fault tolerance in real-time systems?",
+        "Answer": "Challenges include maintaining performance under redundancy, ensuring timely responses, managing resource overhead, and minimizing the impact of fault detection mechanisms on real-time operations."
+    },
+    {
+        "Question": "How do checksums work as an error detection technique? What are their limitations?",
+        "Answer": "Checksums work by calculating a value based on data content to verify integrity during transmission. Their limitations include the inability to detect all errors, particularly when multiple bits change in a way that results in the same checksum."
+    },
+    {
+        "Question": "What is the significance of parity in RAID systems?",
+        "Answer": "Parity in RAID systems is used to provide a means of error detection and correction. It allows for data recovery in case of a single drive failure by reconstructing lost information using the parity data."
+    },
+    {
+        "Question": "Provide an example of a real-world application where fault tolerance is essential. What strategies are employed to ensure reliability in that application?",
+        "Answer": "An example is an aircraft control system, where fault tolerance is essential to ensure safety. Strategies include using triple modular redundancy (TMR) and regular system health checks to detect and correct faults."
+    },
+    {
+        "Question": "How does understanding fault tolerance principles influence the design of embedded systems in safety-critical environments?",
+        "Answer": "Understanding fault tolerance principles guides the design of embedded systems to ensure reliability and safety, informing decisions about redundancy, error detection methods, and recovery strategies in critical applications."
+    }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Question": "What is the role of a file system in an operating system?",
+    "Answer": "The file system manages logical storage units (files) and maps them onto physical storage devices while providing efficient access and file sharing."
+  },
+  {
+    "Question": "What are the main file attributes maintained by the OS?",
+    "Answer": "File attributes include name, identifier, type, location, size, protection, timestamps, and user identification."
+  },
+  {
+    "Question": "What are the basic operations that can be performed on files?",
+    "Answer": "Basic operations include creating, opening, writing, reading, repositioning, deleting, truncating, and closing files."
+  },
+  {
+    "Question": "What is the difference between mandatory and advisory file locks?",
+    "Answer": "Mandatory locks are enforced by the OS, preventing access to locked files, while advisory locks require programs to voluntarily use them for synchronization."
+  },
+  {
+    "Question": "What are the common file access methods?",
+    "Answer": "Access methods include sequential access (processing records in order), direct access (randomly accessing fixed-size blocks), and indexed access (using an index to locate records)."
+  },
+  {
+    "Question": "What are the different directory structures in file systems?",
+    "Answer": "Directory structures include single-level, two-level, tree-structured, acyclic graph, and general graph directories, each with different sharing and organization capabilities."
+  },
+  {
+    "Question": "What types of file protection mechanisms are commonly used?",
+    "Answer": "Mechanisms include access control lists (ACLs), classifications (owner, group, other), and file-specific passwords."
+  }
+]

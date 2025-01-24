@@ -1,0 +1,22 @@
+[
+    {
+        "Question": "What is the role of interrupts in computer system organization?",
+        "Answer": "Interrupts allow CPU and I/O devices to execute concurrently by saving the state of an interrupted instruction and resuming computation after the interrupt service routine finishes."
+    },
+    {
+        "Question": "How do multiprocessor systems improve performance?",
+        "Answer": "Multiprocessor systems, such as symmetric multiprocessing and multicore systems, allow multiple CPUs to perform tasks simultaneously, enhancing computational power and efficiency."
+    },
+    {
+        "Question": "What is the function of the bootstrap program during system startup?",
+        "Answer": "The bootstrap program initializes registers, loads the kernel into memory, and starts system services, enabling the OS to handle system calls and interruptions."
+    },
+    {
+        "Question": "What is the difference between multiprogramming and multitasking?",
+        "Answer": "Multiprogramming involves switching between processes to optimize CPU usage, while multitasking focuses on frequent process switching to achieve low response time for users."
+    },
+    {
+        "Question": "Why is dual-mode operation important in an operating system?",
+        "Answer": "Dual-mode operation differentiates between kernel mode and user mode, ensuring that incorrect or malicious programs do not interfere with the execution of others."
+    }
+]

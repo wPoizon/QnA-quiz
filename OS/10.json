@@ -1,0 +1,30 @@
+[
+  {
+    "Question": "What is virtual memory in an operating system?",
+    "Answer": "Virtual memory allows processes to execute without being fully loaded into physical memory, enabling larger programs and reducing memory pressure."
+  },
+  {
+    "Question": "What are the advantages of virtual memory?",
+    "Answer": "Advantages include supporting larger programs than physical memory, reducing I/O operations, enabling more multiprogramming, and separating logical and physical address spaces."
+  },
+  {
+    "Question": "What is demand paging, and how does it work?",
+    "Answer": "Demand paging loads pages into memory only when they are accessed. A page fault occurs if a requested page is not in memory, triggering the OS to load it from secondary storage."
+  },
+  {
+    "Question": "What is a page fault, and how is it handled?",
+    "Answer": "A page fault occurs when a requested page is not in memory. The OS validates the memory reference, allocates a free frame, loads the page from secondary storage, and updates the page table."
+  },
+  {
+    "Question": "What is copy-on-write, and how does it optimize memory usage?",
+    "Answer": "Copy-on-write allows parent and child processes to share pages until a write operation occurs, at which point a copy of the page is made, avoiding unnecessary duplication."
+  },
+  {
+    "Question": "What is the purpose of page replacement algorithms in virtual memory?",
+    "Answer": "Page replacement algorithms select which page to remove from memory when all frames are occupied, aiming to minimize page faults and improve performance."
+  },
+  {
+    "Question": "What are some common page replacement algorithms?",
+    "Answer": "Common algorithms include FIFO (First-In-First-Out), Optimal (requires future knowledge), and LRU (Least Recently Used), each balancing simplicity and performance."
+  }
+]

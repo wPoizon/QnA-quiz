@@ -1,0 +1,30 @@
+[
+  {
+    "Question": "What are the key layers in a file system's structure?",
+    "Answer": "Key layers include the I/O control layer, basic file system, file-organization module, and logical file system, each handling specific aspects like block I/O, metadata, and directory structure."
+  },
+  {
+    "Question": "What is a File Control Block (FCB), and what information does it contain?",
+    "Answer": "The FCB contains file metadata, including ownership, permissions, location, size, and other attributes necessary for file management."
+  },
+  {
+    "Question": "What are the three main file allocation methods?",
+    "Answer": "File allocation methods include contiguous allocation (sequential blocks), linked allocation (blocks linked via pointers), and indexed allocation (centralized index of block addresses)."
+  },
+  {
+    "Question": "What are the advantages and disadvantages of contiguous file allocation?",
+    "Answer": "Advantages include simple implementation and efficient sequential/direct access. Disadvantages include external fragmentation and difficulty predicting file size for allocation."
+  },
+  {
+    "Question": "What is the purpose of free-space management in file systems?",
+    "Answer": "Free-space management tracks available disk space using methods like bitmaps, linked lists, grouping, and counting to allocate and reclaim space efficiently."
+  },
+  {
+    "Question": "What is a File Allocation Table (FAT), and how does it work?",
+    "Answer": "A FAT is a table where each block has an entry pointing to the next block in the file or indicating end-of-file, enabling linked allocation with centralized tracking."
+  },
+  {
+    "Question": "How does indexed allocation handle large files efficiently?",
+    "Answer": "Indexed allocation uses structures like linked index blocks, multilevel indices, or combined schemes (e.g., direct and indirect pointers) to manage large files with minimal fragmentation."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Question": "What are the classic problems used to test synchronization mechanisms?",
+    "Answer": "Classic problems include the Bounded-Buffer problem, Readers-Writers problem, and Dining-Philosophers problem."
+  },
+  {
+    "Question": "How is the Bounded-Buffer problem solved using semaphores?",
+    "Answer": "The solution uses a mutex semaphore for mutual exclusion and two counting semaphores: 'empty' to track empty slots and 'full' to track filled slots."
+  },
+  {
+    "Question": "What are the requirements for the Readers-Writers problem solution?",
+    "Answer": "The solution must allow multiple readers or one writer at a time, preventing simultaneous access by readers and writers."
+  },
+  {
+    "Question": "How does the Dining-Philosophers problem demonstrate synchronization issues?",
+    "Answer": "It highlights potential deadlocks and starvation when multiple philosophers try to pick up limited shared resources (chopsticks)."
+  },
+  {
+    "Question": "What is the key improvement in the deadlock-free solution for the Dining-Philosophers problem?",
+    "Answer": "The improved solution uses states (e.g., thinking, hungry, eating) and ensures a philosopher eats only if neither neighbor is eating."
+  },
+  {
+    "Question": "What synchronization techniques are used in the Linux kernel?",
+    "Answer": "Linux uses atomic operations (e.g., atomic integers), spinlocks, and semaphores for synchronization within the kernel."
+  }
+]

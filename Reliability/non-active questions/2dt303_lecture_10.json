@@ -1,0 +1,42 @@
+[
+  {
+    "Question": "What are the main types of redundancy classified under fault-tolerant strategies?",
+    "Answer": "The main types of redundancy classified under fault-tolerant strategies are hardware redundancy (duplicating physical components), information redundancy (extra data for error detection/correction), time redundancy (repeating operations or using faster components), and software redundancy (using multiple algorithms or programs for the same task)."
+  },
+  {
+    "Question": "What is the difference between permanent, transient, and intermittent software faults?",
+    "Answer": "Permanent faults refer to total failure of a component that remains until it is repaired or replaced, often caused by corrupted data structures. Transient faults are temporary malfunctions caused by data-dependent bugs in the program code. Intermittent faults are repeated occurrences of transient faults, often caused by issues such as dangling pointers."
+  },
+  {
+    "Question": "What is the significance of the 1996 Ariane 5 accident in the context of software fault tolerance?",
+    "Answer": "The 1996 Ariane 5 accident illustrates a software fault tolerance failure where software errors from the Ariane 4 mission were unsuitable for the conditions of the Ariane 5, leading to the rocket's self-destruction 37 seconds after launch."
+  },
+  {
+    "Question": "How do latent and active software faults differ?",
+    "Answer": "Latent faults are hidden bugs that do not cause issues until triggered by specific conditions or inputs, whereas active faults are always present and immediately affect the software, leading to issues like crashes or incorrect results."
+  },
+  {
+    "Question": "What are the main phases of fault tolerance?",
+    "Answer": "The main phases of fault tolerance include error detection, damage assessment, state restoration, and continued service."
+  },
+  {
+    "Question": "What is a self-healing system in the context of software fault tolerance?",
+    "Answer": "A self-healing system is a type of software that can automatically detect and fix problems as they occur, aiming to enhance fault tolerance by repairing design faults rather than just tolerating them."
+  },
+  {
+    "Question": "What are the two primary techniques for error recovery in fault tolerance?",
+    "Answer": "The two primary techniques for error recovery are forward recovery, which uses the current state to create a new error-free state, and backward recovery, which restores the system to a previous state before the error occurred."
+  },
+  {
+    "Question": "How does N-modular redundancy (NMR) work in software fault tolerance?",
+    "Answer": "N-modular redundancy involves running multiple copies of the same software in parallel, with identical inputs. A voter system then compares the outputs and selects the majority as the final output."
+  },
+  {
+    "Question": "What challenges does design diversity face in software fault tolerance?",
+    "Answer": "Design diversity faces challenges such as cultural similarities among development teams leading to similar mistakes, and specification errors that can propagate through all implementations if not addressed."
+  },
+  {
+    "Question": "What is the role of a watchdog timer in real-time systems?",
+    "Answer": "A watchdog timer monitors whether a software program meets its deadlines; if the timer counts down to zero without being reset, it indicates a malfunction, triggering a system reset to restore proper operation."
+  }
+]

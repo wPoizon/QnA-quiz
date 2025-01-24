@@ -1,0 +1,30 @@
+ [
+  {
+    "Question": "What is CPU scheduling in an operating system?",
+    "Answer": "CPU scheduling is the process of switching the CPU among processes to maximize CPU utilization and system efficiency."
+  },
+  {
+    "Question": "What are the types of CPU scheduling?",
+    "Answer": "CPU scheduling can be preemptive, allowing interruptions, or nonpreemptive, where the process keeps the CPU until it releases it."
+  },
+  {
+    "Question": "What are the key criteria for evaluating scheduling algorithms?",
+    "Answer": "Criteria include CPU utilization, throughput, turnaround time, waiting time, and response time, aiming to optimize average or extreme values."
+  },
+  {
+    "Question": "What is the role of the dispatcher in CPU scheduling?",
+    "Answer": "The dispatcher gives control of the CPU to the selected process, handling context switches, user mode switching, and resuming processes."
+  },
+  {
+    "Question": "What are the advantages and disadvantages of the First-Come, First-Served scheduling algorithm?",
+    "Answer": "Advantages: simplicity and FIFO implementation. Disadvantages: long average waiting times and the convoy effect, especially for interactive processes."
+  },
+  {
+    "Question": "What is the Shortest-Job-First (SJF) scheduling algorithm, and what are its limitations?",
+    "Answer": "SJF minimizes average waiting time by selecting the shortest next CPU burst, but it requires prediction of burst lengths, which is often impractical."
+  },
+  {
+    "Question": "What is the Round-Robin scheduling algorithm, and how does the time quantum affect it?",
+    "Answer": "Round-Robin schedules processes in a circular queue with a fixed time quantum. A small quantum increases overhead, while a large quantum makes it resemble FCFS."
+  }
+]

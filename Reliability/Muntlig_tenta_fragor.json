@@ -1,0 +1,74 @@
+[
+    {
+        "Question": "What is a basic or root event? How do you differentiate different stages of FTA on the basis of fault, error, failure, where faults/errors/failures are usually located at the top or bottom?",
+        "Answer": "A basic or root event is the primary cause of a failure that requires no further decomposition. Faults are typically at the top level in Fault Tree Analysis (FTA), while errors and failures may occur at lower levels."
+    },
+    {
+        "Question": "What is RPN risk priority number in FMECA?",
+        "Answer": "RPN stands for Risk Priority Number in Failure Mode, Effects, and Criticality Analysis (FMECA). It is calculated as the product of Severity, Occurrence, and Detection ratings to prioritize risks."
+    },
+    {
+        "Question": "Active parallel system/standby redundant system: How is the system going to work if one component fails? When would you use active parallel/dynamic switching (standby), and why?",
+        "Answer": "In an active parallel system, all components operate simultaneously, and the system continues if one fails. In a standby redundant system, backup components take over dynamically. Use active parallel for immediate reliability and standby redundant when energy efficiency is required."
+    },
+    {
+        "Question": "Why do we calculate the Safety Integrity Level (SIL) by risk assessment?",
+        "Answer": "Safety Integrity Level (SIL) is calculated through risk assessment to quantify and ensure acceptable levels of risk for safety-critical systems."
+    },
+    {
+        "Question": "How does the risk analysis matrix work for the safety-critical environment in ES?",
+        "Answer": "The risk analysis matrix evaluates the likelihood and severity of risks in a safety-critical environment, assigning categories for prioritization and mitigation."
+    },
+    {
+        "Question": "Please explain the real-life condition where we need to ensure high dependability in ES. How would you enable the dependability in such conditions?",
+        "Answer": "High dependability is critical in applications like autonomous vehicles or medical devices. This can be achieved through redundancy, fault tolerance, and rigorous testing."
+    },
+    {
+        "Question": "Which one would you use series or parallel reliability for the final assignment (you can also take your own scenario) and why?",
+        "Answer": "Choose series reliability when the entire system depends on each component. Use parallel reliability for increased fault tolerance where redundancy ensures system functionality."
+    },
+    {
+        "Question": "What is the major issue with RBD and event FTA analysis? Where and why do you use each of them?",
+        "Answer": "The major issue with RBD and FTA is their dependency on accurate data and assumptions. Use RBD for visualizing system reliability and FTA for analyzing potential failures systematically."
+    },
+    {
+        "Question": "What is test adequacy?",
+        "Answer": "Test adequacy measures the extent to which testing has been performed, ensuring sufficient coverage to detect faults."
+    },
+    {
+        "Question": "How many tests need to be performed, and how would you know this?",
+        "Answer": "The number of tests is determined by coverage criteria like statement, branch, or path coverage, as well as risk levels and system complexity."
+    },
+    {
+        "Question": "Name different Redundancy Types",
+        "Answer": "Hardware, information, time, software, and spatial redundancy."
+    },
+    {
+        "Question": "Explain TMR",
+        "Answer": "Triple Modular Redundancy (TMR) involves three components performing the same task, with majority voting to tolerate faults."
+    },
+    {
+        "Question": "Explain Recovery Blocks",
+        "Answer": "Recovery blocks use an alternate, predefined solution or algorithm when the primary approach fails, ensuring system reliability."
+    },
+    {
+        "Question": "RAID, hur det fungerar och varför vi använder det.",
+        "Answer": "RAID (Redundant Array of Independent Disks) combines multiple disks into a single logical unit for increased performance, fault tolerance, or both."
+    },
+    {
+        "Question": "Explain Acceptance tests",
+        "Answer": "Acceptance tests validate a system against user requirements to ensure it meets functional and non-functional expectations."
+    },
+    {
+        "Question": "Explain Forward/Backwards recovery",
+        "Answer": "Forward recovery involves progressing to a safe state after a fault, while backward recovery restores the system to a previous safe state."
+    },
+    {
+        "Question": "Consider that you are designing a smart home where you have multiple interconnected devices. In that scenario, how would you use compositional modeling for assessing the failure rate?",
+        "Answer": "Compositional modeling involves analyzing individual device reliability and their interactions to estimate the overall failure rate of the smart home system."
+    },
+    {
+        "Question": "Why do we calculate Safety Integrity Level (SIL) by risk assessment? How does the risk analysis matrix work for the safety-critical environment in embedded systems?",
+        "Answer": "SIL ensures that safety-critical systems meet required risk levels. The risk analysis matrix prioritizes risks based on their likelihood and severity, guiding mitigation in embedded systems."
+    }
+]

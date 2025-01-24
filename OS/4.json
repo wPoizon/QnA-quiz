@@ -1,0 +1,31 @@
+[
+  {
+    "Question": "What is a thread in the context of an operating system?",
+    "Answer": "A thread is the basic unit of CPU utilization, sharing the code, data, and OS resources of a process but having its own program counter, registers, and stack."
+  },
+  {
+    "Question": "What are the benefits of multithreaded programming?",
+    "Answer": "Multithreaded programming offers responsiveness, resource sharing, efficiency, and scalability, particularly in multiprocessor or multicore systems."
+  },
+  {
+    "Question": "What are the main challenges of multicore programming?",
+    "Answer": "Challenges include identifying tasks for concurrency, balancing workloads, managing data dependencies, and debugging concurrent programs."
+  },
+  {
+    "Question": "What are the different multithreading models?",
+    "Answer": "Multithreading models include many-to-one, one-to-one, and many-to-many, each with its own balance of concurrency and kernel support."
+  },
+  {
+    "Question": "What are thread libraries, and what types are commonly used?",
+    "Answer": "Thread libraries provide APIs for thread creation and management. Examples include POSIX Pthreads, Windows threads, and Java threads."
+  },
+  {
+    "Question": "What is implicit threading, and how does it simplify programming?",
+    "Answer": "Implicit threading offloads thread management to compilers or runtime libraries, using techniques like thread pools or task-based parallelism."
+  },
+  {
+    "Question": "What is Amdahl’s Law, and how does it relate to multicore programming?",
+    "Answer": "Amdahl’s Law quantifies potential speedup in parallel computing by balancing the serial and parallel portions of an application."
+  }
+]
+

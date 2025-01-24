@@ -1,0 +1,31 @@
+[
+  {
+    "Question": "What is a deadlock in the context of operating systems?",
+    "Answer": "A deadlock occurs when a set of threads is waiting for resources held by one another, preventing progress."
+  },
+  {
+    "Question": "What are the four necessary conditions for a deadlock to occur?",
+    "Answer": "The conditions are mutual exclusion, hold and wait, no preemption, and circular wait."
+  },
+  {
+    "Question": "How can a Resource-Allocation Graph be used to detect deadlocks?",
+    "Answer": "The graph represents threads and resources as vertices, with edges showing resource allocation. A cycle in the graph indicates a potential deadlock."
+  },
+  {
+    "Question": "What are the common strategies for handling deadlocks?",
+    "Answer": "Strategies include ignoring the problem, deadlock prevention, deadlock avoidance, and deadlock detection with recovery."
+  },
+  {
+    "Question": "What is the difference between deadlock prevention and avoidance?",
+    "Answer": "Prevention ensures at least one necessary condition for a deadlock does not hold, while avoidance dynamically assesses resource allocation to prevent unsafe states."
+  },
+  {
+    "Question": "What is livelock, and how is it different from deadlock?",
+    "Answer": "Livelock occurs when threads continuously retry failing operations without making progress, unlike deadlock, where threads are blocked."
+  },
+  {
+    "Question": "What is the role of the Banker's Algorithm in deadlock avoidance?",
+    "Answer": "The Banker's Algorithm checks resource allocation requests against the system's safe state to avoid potential deadlocks."
+  }
+]
+

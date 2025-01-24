@@ -1,0 +1,58 @@
+[
+  {
+    "Question": "What is the main objective of engineering dependable systems?",
+    "Answer": "To make systems dependable with respect to requirements, including avoiding, detecting, eliminating, and tolerating faults."
+  },
+  {
+    "Question": "What are dependability requirements?",
+    "Answer": "Dependability requirements express concepts in a non-ambiguous way and include terminology to quantify dependability."
+  },
+  {
+    "Question": "What are the three main ways to assess the dependability of systems?",
+    "Answer": "1) Quantitative assessment, 2) Prescriptive standards, 3) Rigorous argument."
+  },
+  {
+    "Question": "What is quantitative assessment in dependability?",
+    "Answer": "It involves estimating probabilities through direct or indirect measurements, often using techniques like statistical sampling and Markov models."
+  },
+  {
+    "Question": "What are the two main categories for quantitative assessment?",
+    "Answer": "1) Life testing, which estimates properties by observing identical parts, and 2) Modelling, which predicts performance of system parts and overall system."
+  },
+  {
+    "Question": "What is compositional modelling?",
+    "Answer": "A technique where models of components are created to study their behavior, performance, and failure rate, especially useful in complex systems."
+  },
+  {
+    "Question": "What are some difficulties with quantitative assessment?",
+    "Answer": "Challenges include non-quantifiable attributes, unavailability of accurate models, and measuring ultra-high levels of dependability."
+  },
+  {
+    "Question": "What are prescriptive standards?",
+    "Answer": "Standards that dictate development practices, such as required work products, specific actions, and goals that must be met."
+  },
+  {
+    "Question": "Give an example of a prescriptive standard.",
+    "Answer": "IEC 61508, which covers the functional safety of electrical/electronic/programmable electronic safety-related systems."
+  },
+  {
+    "Question": "What is the purpose of prescriptive standards?",
+    "Answer": "To define development activities that affect fault avoidance and elimination, ensuring dependability requirements are met by design."
+  },
+  {
+    "Question": "What are Safety Integrity Levels (SILs)?",
+    "Answer": "A measure of safety system performance required, indicating the relative levels of risk-reduction provided by a safety function."
+  },
+  {
+    "Question": "What is the relationship between SILs and software safety?",
+    "Answer": "Software Safety Integrity Levels (SWSIL) are used to express dependability requirements for software in relation to SILs."
+  },
+  {
+    "Question": "What are the pros of using prescriptive standards?",
+    "Answer": "They target fault avoidance and elimination, provide process guidance and coverage, and enhance engineering communication."
+  },
+  {
+    "Question": "What are the cons of using prescriptive standards?",
+    "Answer": "They can be inflexible and may rely on unjustified assumptions."
+  }
+]

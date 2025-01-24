@@ -1,0 +1,46 @@
+[
+  {
+    "Question": "What is the difference between a fault, an error, and a failure in a system?",
+    "Answer": "A fault is a defect within the system that can lead to failure, an error is a deviation between the actual output and the expected output, and a failure occurs when the system does not perform its intended function."
+  },
+  {
+    "Question": "What are the four dependability means mentioned in the content?",
+    "Answer": "The four dependability means are Fault Prevention, Fault Removal, Fault Forecasting, and Fault Tolerance."
+  },
+  {
+    "Question": "Define Fault Tolerance and its three types.",
+    "Answer": "Fault Tolerance is the ability to keep systems running even when things go wrong. The three types are Full Fault Tolerance (complete functionality despite faults), Graceful Degradation (reduced performance under errors), and Fail Safe (stopping operations if necessary to maintain safety)."
+  },
+  {
+    "Question": "What is a Single Point of Failure (SPOF)?",
+    "Answer": "A Single Point of Failure (SPOF) is a design flaw where a single fault can cause the entire system to stop, meaning one failure can halt operations entirely."
+  },
+  {
+    "Question": "What are the types of hardware faults?",
+    "Answer": "The types of hardware faults include Transient Faults (temporary malfunctions), Permanent Faults (total failure until repaired), and Intermittent Faults (repeated and unpredictable faults)."
+  },
+  {
+    "Question": "Explain the concept of redundancy in fault tolerance.",
+    "Answer": "Redundancy involves adding extra elements into a system to detect and recover from faults. It can be classified into hardware redundancy (duplicating physical components), information redundancy (extra data for error detection), and software redundancy (multiple algorithms for the same task)."
+  },
+  {
+    "Question": "What are the phases of Fault Tolerance?",
+    "Answer": "The phases of Fault Tolerance include Error Detection, Damage Assessment and Fault Containment, Error Recovery, and Fault Treatment."
+  },
+  {
+    "Question": "Describe Static Redundancy.",
+    "Answer": "Static Redundancy involves having redundant resources constantly on and functioning to handle faults without impacting overall functionality, ensuring that faults are contained locally."
+  },
+  {
+    "Question": "What is Triple Modular Redundancy (TMR)?",
+    "Answer": "Triple Modular Redundancy (TMR) involves triplicating modules to perform the same computation in parallel, with a voting system to compare outputs and ensure reliability by masking faults."
+  },
+  {
+    "Question": "What is the difference between Hot, Cold, and Warm Standby Sparing?",
+    "Answer": "Hot standby sparing keeps all modules powered and ready to switch immediately; cold standby has spares powered down until needed, leading to longer switch-over times; warm standby has powered modules not connected until needed."
+  },
+  {
+    "Question": "What is the role of a Watchdog Timer in fault tolerance?",
+    "Answer": "A Watchdog Timer monitors system activity, resetting regularly through a 'heartbeat' signal. If the timer expires without a reset, it triggers error responses such as system reset or switching to a backup module."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Question": "What is the purpose of process synchronization in an operating system?",
+    "Answer": "Process synchronization ensures orderly access to shared data, preventing race conditions and data corruption in concurrent execution."
+  },
+  {
+    "Question": "What are the three conditions that a solution to the critical-section problem must satisfy?",
+    "Answer": "The solution must satisfy mutual exclusion, progress (processes not in the remainder section should decide entry), and bounded waiting (a limit on the number of entries)."
+  },
+  {
+    "Question": "What are the main hardware instructions used for synchronization?",
+    "Answer": "Key instructions include test_and_set and compare_and_swap, which provide atomic operations to manage critical sections."
+  },
+  {
+    "Question": "What is a mutex lock, and how does it work?",
+    "Answer": "A mutex lock is a synchronization tool ensuring mutual exclusion. A process acquires the lock before entering the critical section and releases it afterward."
+  },
+  {
+    "Question": "What is a semaphore, and how is it different from a mutex lock?",
+    "Answer": "A semaphore is an integer-based synchronization tool with atomic wait() and signal() operations. Unlike mutexes, semaphores can manage multiple resources."
+  },
+  {
+    "Question": "What is the producer-consumer problem, and how is it solved?",
+    "Answer": "The producer-consumer problem involves managing a bounded buffer. It is solved using semaphores to track empty and full slots and a mutex for critical sections."
+  },
+  {
+    "Question": "What is a spinlock, and when is it beneficial?",
+    "Answer": "A spinlock involves busy-waiting for a resource. It is beneficial in multicore systems with short wait times, as it avoids context switching overhead."
+  }
+]

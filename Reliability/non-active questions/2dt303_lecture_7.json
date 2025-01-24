@@ -1,0 +1,78 @@
+[
+  {
+    "Question": "Explain the steps of the V-model",
+    "Answer": "Requirement analasys\nSystemDesign\nArchitecture design\nModuleDesign\nCoding\nUnit testing\nIntegration testing\nSystem tesing\nAcceptance testing"
+  },
+  {
+    "Question": "Explain Validation and Verificaton",
+    "Answer": "*Verification is about assuring that what you have built is correct according to you and your understanding\n*Validation is about how good the solusion fits to the customer"
+  },
+  {
+    "Question": "Why do we use formal methods?",
+    "Answer": "They are used to analyse the customer sspecifications in to a comprehendable format to prove the customer requirements are waht the developer actually develops"
+  },
+  {
+    "Question": "When do we use formal methods?",
+    "Answer": "When failure is not acceptable or very costly. Aerospace, medical, military"
+  },
+  {
+    "Question": "What are the primary uses of formal methods in software engineering?",
+    "Answer": "Formal methods are used to specify and analyze the specification, prove properties of the specification (formal verification), and derive an implementation from the specification."
+  },
+  {
+    "Question": "Name two main techniques of formal methods.",
+    "Answer": "Formal specification and formal verification."
+  },
+  {
+    "Question": "What is the purpose of using formal languages in software engineering?",
+    "Answer": "To replace much of the use of natural language in requirements, specification, and design, and to allow properties of software to be determined without executing it."
+  },
+  {
+    "Question": "Why is failure unacceptable in systems where formal methods are used?",
+    "Answer": "Because failure can have economically devastating consequences, and it's often infeasible to shut down malfunctioning systems to repair them."
+  },
+  {
+    "Question": "Describe what happened with the Ariane 5 rocket in 1996 due to a software error.",
+    "Answer": "The rocket exploded due to an unhandled exception when converting a 64-bit number to a 16-bit integer, causing both the main and backup computers to fail and incorrect data to be transmitted."
+  },
+  {
+    "Question": "List three advantages of using formal specification languages.",
+    "Answer": "1) They provide insights into software requirements and design, 2) allow the possibility to prove program adherence to specifications, and 3) can be automatically processed to assist with development, understanding, and debugging."
+  },
+  {
+    "Question": "Why are formal specifications sometimes not used in software development?",
+    "Answer": "Because management may be conservative, most engineers aren't trained in these techniques, and certain systems, like interactive ones, are difficult to specify with existing formal methods."
+  },
+  {
+    "Question": "What is model checking?",
+    "Answer": "A technique for the automatic analysis of reactive systems through an exhaustive search of the system's finite state space."
+  },
+  {
+    "Question": "What happens when a model checker detects that a system fails to satisfy a desired property?",
+    "Answer": "It produces a counterexample showing where the failure occurred, such as deadlock or an efficiency issue."
+  },
+  {
+    "Question": "How does temporal logic relate to model checking?",
+    "Answer": "Temporal logic allows the ordering of events in time without introducing explicit timing, with types including linear time logic (LTL) and computation tree logic (CTL)."
+  },
+  {
+    "Question": "What does 'Correctness by Construction' aim to achieve in software engineering?",
+    "Answer": "It ensures the software is correct by design, avoiding errors and catching them early by verifying each step against the last."
+  },
+  {
+    "Question": "What are the principles of Correctness by Construction?",
+    "Answer": "1) Avoid introducing errors, 2) find errors close to their source, 3) use formal notation, and 4) take small, verifiable steps."
+  },
+  {
+    "Question": "What is model-based development in formal methods?",
+    "Answer": "It is a development methodology that uses formal specification and domain-specific languages to automatically translate specifications into executable programs."
+  },
+  {
+    "Question": "List some advantages of model-based development.",
+    "Answer": "It requires less development effort, is closer to the application, independent of programming languages, and reduces human error."
+  },
+  {
+    "Question": "What is the process of refinement in Correctness by Construction?",
+    "Answer": "A series of transformations leading to formal specifications, iterated until an executable implementation with formal verification at each refinement stage."
+  }
+]

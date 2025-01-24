@@ -1,0 +1,31 @@
+[
+  {
+    "Question": "What is a process in an operating system?",
+    "Answer": "A process is a program in execution, including its code, data, heap, and stack segments, managed as an active entity by the OS."
+  },
+  {
+    "Question": "What are the main states of a process?",
+    "Answer": "A process can be in states such as new, ready, running, waiting, and terminated."
+  },
+  {
+    "Question": "What is a Process Control Block (PCB), and what information does it contain?",
+    "Answer": "The PCB stores process-specific information such as state, program counter, CPU registers, memory allocation details, and I/O status."
+  },
+  {
+    "Question": "What is the difference between independent and cooperating processes?",
+    "Answer": "Independent processes do not share data, whereas cooperating processes share data and can affect each other's execution."
+  },
+  {
+    "Question": "What is interprocess communication (IPC), and what are its models?",
+    "Answer": "IPC allows processes to share information and synchronize execution. Models include shared memory and message passing."
+  },
+  {
+    "Question": "What is a context switch in process scheduling?",
+    "Answer": "A context switch occurs when the CPU switches from one process to another, saving and restoring their states, resulting in some overhead."
+  },
+  {
+    "Question": "How is a process created and terminated in UNIX systems?",
+    "Answer": "A process is created using `fork()`, which duplicates the parent's address space. Processes terminate using `exit()` and may be waited on using `wait()`."
+  }
+]
+
