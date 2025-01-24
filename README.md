@@ -8,10 +8,4 @@ When you start the program you get to choose which directory to play in, and the
 
 A quick way of adding questions is also to send your teachers powerpoints or other files containing good information to ChatGPT and ask to extract a couple of questions from each file. Then you could also upload one of the JSON files within this project and ask ChatGPT to create new JSON files with this format and input the questions and answers it extracted from the powerpoints or PDFs you sent it. Then you simply save these new JSON files and put them within the correct directory!
 
-[Imgur](https://imgur.com/9bxiViw)
-
-
-test
-
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/mSAIrtO" data-context="false" ><a href="//imgur.com/a/mSAIrtO"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[Imgur](https://i.imgur.com/9bxiViw.png)
